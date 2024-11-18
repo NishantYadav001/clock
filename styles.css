@@ -1,0 +1,30 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    background-color: #050810;  /* Dark background color for the page */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.clock {
+    background-color: rgba(0, 0, 0, 0.408); /* Black background for the clock */
+    padding: 40px 60px;      /* Add padding to make the clock bigger */
+    border-radius: 20px;     /* Rounded corners for the clock */
+    box-shadow: 0 0 35px rgba(236, 5, 5, 0.7); /* Shadow effect */
+}
+
+#time {
+    font-size: 120px;         /* Increase the font size */
+    color: #ebefee;             /* White text color */
+    font-weight: bold;
+    text-align: center;
+}
